@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <style>
+        h3
+            {
+                margin-top: 250px;
+                padding-left: 50px;
+                padding-right: 50px;
+            }
+        p
+            {
+                color: purple;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                padding-left: 50px;
+                padding-right: 50px;
+            }
+        form
+            {
+                padding-top: 20px;
+                margin-top: 20px;
+            }
+        button
+            {
+                height: 50px;
+                width: 100px;
+                text-align: center;
+                font-size: large;
+                margin-top: 20px;
+                
+            }
+        a   
+            {
+                color: purple;
+            }
+    </style>
+</head>
+<body>
+    <div class="container">
+            <div class="row">
+                <div class="col-sm-7" >
+                    <center><img src="images__1_-removebg-preview.png" alt="" height="150px" width="150px">
+                <h2>We are The Lotus Team</h2></center>
+                
+                    <form action="/action_page.php">
+                    <h4 style="text-align: center;">Please login  to your account</h4>
+                        
+                    <div class="form-group">
+                        <label for="Username">Username: </label>
+                        <input type="Username" class="form-control" id="Username" placeholder="Username..." name="email">
+                      </div>
+
+                        <div class="form-group">
+                             <label for="pwd">Password:</label>
+                             <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pwd">
+                        </div>
+                       
+                            <center><button type="submit" class="btn btn-default" style="width: 650px;"> Login </button></center> <br>
+                           <center> <a href="">Forgot password? <br></a></center>
+                           <center><div style="padding-top: 60px;">
+                            Don't have an account? <a href="registartion.html" style="border: solid pink; padding: 5px;" > Create New</a>
+                           </div>
+                           </center>
+                 </div> 
+
+                 <div class="col-sm-5" >
+                    <h3>We are more then just a company</h3>
+                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                         Consectetur veniam cum maxime recusandae saepe iure! Animi 
+                         nemo aspernatur, dolore illo similique, ipsam libero eaque, 
+                         corporis nam quae repudiandae reprehenderit ipsa quam nostrum 
+                         inventore veritatis repellat officiis? </p>
+                 </div>
+
+            </div>
+    </div>
+</body>
+</html>
